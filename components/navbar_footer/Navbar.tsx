@@ -33,9 +33,14 @@ const Navbar = () => {
                         <details>
                             <summary>Solutions</summary>
                             <ul className="p-2 w-full">
-                                <li><a href='/blog/blog-one'>Blog 1</a></li>
-                                <li><a href='/blog/blog-two'>Blog 2</a></li>
-                                <li><a href='/blog/blog-three'>Blog 3</a></li>
+                                <li><a href='/blog/blog-one'>Retail Solutions</a></li>
+                                <li><a href='/blog/blog-two'>Hospitality Solutions</a></li>
+                                <li><a href='/blog/blog-two'>Logistic Solutions</a></li>
+                                <li><a href='/blog/blog-three'>Manufacture</a></li>
+                                <li><a href='/blog/blog-three'>FMCG Solutions</a></li>
+                                <li><a href='/blog/blog-three'>Education</a></li>
+                                <li><a href='/blog/blog-three'>Goverment Solution</a></li>
+                                <li><a href='/blog/blog-three'>Healthcare</a></li>
                             </ul>
                         </details>
                     </li>
@@ -43,9 +48,16 @@ const Navbar = () => {
                         <details>
                             <summary>Our Products</summary>
                             <ul className="p-2 w-full">
-                                <li><a href='/blog/blog-one'>Blog 1</a></li>
-                                <li><a href='/blog/blog-two'>Blog 2</a></li>
-                                <li><a href='/blog/blog-three'>Blog 3</a></li>
+                                <li><a href='/blog/blog-one'>Barcode & Line Matrix Printer</a></li>
+                                <li><a href='/blog/blog-two'>Barcode Scanner</a></li>
+                                <li><a href='/blog/blog-three'>Point Of Sales (POS)</a></li>
+                                <li><a href='/blog/blog-three'>Mobile Computer</a></li>
+                                <li><a href='/blog/blog-three'>Smart Security Solution</a></li>
+                                <li><a href='/blog/blog-three'>RFID Solution</a></li>
+                                <li><a href='/blog/blog-three'>Asset Management System</a></li>
+                                <li><a href='/blog/blog-three'>Human Resource Information Systems</a></li>
+                                <li><a href='/blog/blog-three'>Warehouse Management Systems</a></li>
+                                <li><a href='/blog/blog-three'>Consumable Products</a></li>
                             </ul>
                         </details>
                     </li>
@@ -53,9 +65,8 @@ const Navbar = () => {
                         <details>
                             <summary>Service & Support</summary>
                             <ul className="p-2 w-full">
-                                <li><a href='/blog/blog-one'>Blog 1</a></li>
-                                <li><a href='/blog/blog-two'>Blog 2</a></li>
-                                <li><a href='/blog/blog-three'>Blog 3</a></li>
+                                <li><a href='/blog/blog-one'>FAQ Questions</a></li>
+                                <li><a href='/blog/blog-two'>Consult With Our Team</a></li>
                             </ul>
                         </details>
                     </li>
@@ -63,9 +74,7 @@ const Navbar = () => {
                         <details>
                             <summary>News & Articles</summary>
                             <ul className="p-2 w-full">
-                                <li><a href='/blog/blog-one'>Blog 1</a></li>
-                                <li><a href='/blog/blog-two'>Blog 2</a></li>
-                                <li><a href='/blog/blog-three'>Blog 3</a></li>
+                                <li><a href='/blog/blog-one'>Discover News & Events</a></li>
                             </ul>
                         </details>
                     </li>

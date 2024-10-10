@@ -1,28 +1,61 @@
 import React from 'react'
+import { FaDhl } from 'react-icons/fa'
 
 const StatHero = () => {
     return (
-        <div className='bg-slate-200 flex justify-center items-center'>
-            <div className="stats stats-horizontal bg-slate-200 ">
-                <div className="stat">
-                    <div className="stat-title">Downloads</div>
-                    <div className="stat-value">31K</div>
-                    <div className="stat-desc">Jan 1st - Feb 1st</div>
+        <div className="stats stats-horizontal inset-0 h-full w-full bg-white bg-[radial-gradient(#000_1px,transparent_1px)] [background-size:8px_8px] py-24 overflow-hidden flex flex-col gap-32">
+            <div className="z-10 w-full">
+                <div className='bg-white w-full -my-8 flex gap-20 '>
+                    <div className='-my-[5rem]'>
+                        <FaDhl size={300} />
+                    </div>
+                    <div className='-my-[5rem]'>
+                        <FaDhl size={300} />
+                    </div>
+                    <div className='-my-[5rem]'>
+                        <FaDhl size={300} />
+                    </div>
+                    <div className='-my-[5rem]'>
+                        <FaDhl size={300} />
+                    </div>
+                    <div className='-my-[5rem]'>
+                        <FaDhl size={300} />
+                    </div>
+                    <div className='-my-[5rem]'>
+                        <FaDhl size={300} />
+                    </div>
+                    <div className='-my-[5rem]'>
+                        <FaDhl size={300} />
+                    </div>
                 </div>
-
-                <div className="stat">
-                    <div className="stat-title">New Users</div>
-                    <div className="stat-value">4,200</div>
-                    <div className="stat-desc">↗︎ 400 (22%)</div>
-                </div>
-
-                <div className="stat">
-                    <div className="stat-title">New Registers</div>
-                    <div className="stat-value">1,200</div>
-                    <div className="stat-desc">↘︎ 90 (14%)</div>
+            </div>
+            <div className="z-10 w-full">
+                <div className='bg-[#E6E6E6] w-full -my-8 flex gap-20 '>
+                    <div className='-my-24'>
+                        <FaDhl size={300} />
+                    </div>
+                    <div className='-my-24'>
+                        <FaDhl size={300} />
+                    </div>
+                    <div className='-my-24'>
+                        <FaDhl size={300} />
+                    </div>
+                    <div className='-my-24'>
+                        <FaDhl size={300} />
+                    </div>
+                    <div className='-my-24'>
+                        <FaDhl size={300} />
+                    </div>
+                    <div className='-my-24'>
+                        <FaDhl size={300} />
+                    </div>
+                    <div className='-my-24'>
+                        <FaDhl size={300} />
+                    </div>
                 </div>
             </div>
         </div>
+
     )
 }
 
